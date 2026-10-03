@@ -24,7 +24,7 @@ const SOCIAL_LINKS = [
   },
   {
     icon: FaLinkedinIn,
-    href: "www.linkedin.com/in/lima-akter-badhon",
+    href: "https://www.linkedin.com/in/lima-akter-badhon/",
     label: "LinkedIn",
   },
   {

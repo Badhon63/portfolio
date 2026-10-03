@@ -26,17 +26,17 @@ const QUICK_LINKS = [
 const SOCIAL_LINKS = [
   {
     icon: FaGithub,
-    href: "https://github.com/WebdeveloperNahid",
+    href: "https://github.com/Badhon63/portfolio",
     label: "GitHub",
   },
   {
     icon: FaLinkedinIn,
-    href: "https://www.linkedin.com/in/omarfaruk-nahid",
+    href: "https://www.linkedin.com/in/lima-akter-badhon/",
     label: "LinkedIn",
   },
   {
     icon: FaFacebookF,
-    href: "https://www.facebook.com/omarfaruk.nahid.731385",
+    href: "https://www.facebook.com/limaakter.badhon",
     label: "Facebook",
   },
 ];
