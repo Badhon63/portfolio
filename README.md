@@ -128,10 +128,4 @@ Add a new object to the projects data file:
 
 ---
 
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
-
----
-
 ⭐ If you like this project, consider giving it a star!
