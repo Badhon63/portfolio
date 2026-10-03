@@ -2,12 +2,6 @@
 
 A modern, responsive developer portfolio showcasing my projects, skills, and experience. Built with Next.js and Tailwind CSS, with a dark-first theme and smooth, clean UI.
 
-🔗 **Live:** [YOUR_LIVE_PORTFOLIO_LINK](portfolio-26sufnlb6-badhon-project.vercel.app)
-
-![Portfolio Preview](./public/image/portfolio-preview.png)
-
----
-
 ## ✨ Features
 
 - 🌙 Dark / light theme support with `next-themes` (dark by default)
@@ -128,8 +122,8 @@ Add a new object to the projects data file:
 
 ## 📬 Contact
 
-- 📧 Email: YOUR_EMAIL
-- 💼 LinkedIn: [YOUR_LINKEDIN](YOUR_LINKEDIN)
+- 📧 Email: limaakterbadhon9@gmail.com
+- 💼 LinkedIn: [LINKEDIN](www.linkedin.com/in/lima-akter-badhon)
 - 🐙 GitHub: [@Badhon63](https://github.com/Badhon63)
 
 ---
