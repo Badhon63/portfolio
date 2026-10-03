@@ -168,7 +168,7 @@ export default function Hero() {
                 variants={lineVariants}
                 className="mt-1 block text-[0.68em] text-[#0F8F6E] dark:text-transparent dark:[-webkit-text-stroke:1.5px_#2DD3A8]"
               >
-                Next.js &amp; MERN Stack Developer
+                MERN Stack Developer
               </motion.span>
             </h1>
 
