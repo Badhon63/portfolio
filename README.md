@@ -1,36 +1,143 @@
-This is a [Next.js](https://nextjs.org) project tailwind css with Next.js & Express.js  [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 👨‍💻 Badhon – Personal Portfolio
 
-## Getting Started
+A modern, responsive developer portfolio showcasing my projects, skills, and experience. Built with Next.js and Tailwind CSS, with a dark-first theme and smooth, clean UI.
 
-First, run the development server:
+🔗 **Live:** [YOUR_LIVE_PORTFOLIO_LINK](portfolio-26sufnlb6-badhon-project.vercel.app)
+
+![Portfolio Preview](./public/image/portfolio-preview.png)
+
+---
+
+## ✨ Features
+
+- 🌙 Dark / light theme support with `next-themes` (dark by default)
+- 📱 Fully responsive design for mobile, tablet and desktop
+- 🗂️ Project showcase with images, tags, tech stack, live and GitHub links
+- 🧰 Skills section with technology icons
+- ⚡ Optimized images using `next/image`
+- 🚀 Deployed on Vercel
+
+---
+
+## 🛠️ Tech Stack
+
+| Category       | Technologies   |
+| -------------- | -------------- |
+| **Framework**  | Next.js, React |
+| **Language**   | TypeScript     |
+| **Styling**    | Tailwind CSS   |
+| **Icons**      | React Icons    |
+| **Theming**    | next-themes    |
+| **Deployment** | Vercel         |
+
+---
+
+## 🧠 Skills
+
+- **Frontend:** HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS
+- **Backend:** Node.js, Express.js, PHP, Python, Java
+- **Database:** MongoDB, MySQL
+- **Tools & OS:** Git, GitHub, Linux, Vercel
+
+---
+
+## 📁 Featured Projects
+
+| Project             | Description                                                                            | Links                                                                                                  |
+| ------------------- | -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| **LegalEase**       | Online lawyer hiring platform with role-based dashboards and Stripe payments           | [Live](https://mr-punctuation-meoc.vercel.app/)                                                        |
+| **Mr. Punctuation** | AI-powered grammar and punctuation corrector with PDF/TXT download and offline support | [Live](https://mr-punctuation-meoc.vercel.app/) · [GitHub](https://github.com/Badhon63/Mr.punctuation) |
+| **PetPulse**        | Premium pet marketplace for adoption and pet supplies                                  | [Live](https://petpulse-flame.vercel.app/) · [GitHub](https://github.com/Badhon63/petpulse)            |
+| **UsedBay**         | Second-hand marketplace to buy and sell pre-owned products                             | [Live](https://used-bay.vercel.app/) · [GitHub](https://github.com/Badhon63/UsedBay)                   |
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+
+- Node.js 18 or later
+- npm, yarn or pnpm
+
+### Installation
 
 ```bash
+# Clone the repository
+git clone YOUR_PORTFOLIO_GITHUB_LINK
+
+# Go to the project folder
+cd portfolio
+
+# Install dependencies
+npm install
+
+# Start the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Build for production
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```bash
+npm run build
+npm start
+```
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 📂 Project Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```
+portfolio/
+├── public/
+│   └── image/            # Project screenshots and static images
+├── src/
+│   ├── app/              # App Router pages and layout
+│   └── Components/       # Reusable UI components (Projects, Skills, etc.)
+├── next.config.ts        # Next.js config (remote image domains)
+├── package.json
+└── README.md
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🖼️ Adding a New Project
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Add a new object to the projects data file:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```typescript
+{
+  slug: "project-slug",
+  name: "Project Name",
+  image: "/image/project.png",   // file must be inside public/image/
+  category: "Full Stack",
+  tags: ["Next.js", "Tailwind CSS"],
+  description: "Short description of the project.",
+  techStack: ["Next.js", "TypeScript", "Tailwind CSS"],
+  liveLink: "https://your-live-link.vercel.app/",
+  githubLink: "https://github.com/Badhon63/your-repo",
+  challenges: "The main challenge and how you solved it.",
+  improvements: "Planned future improvements.",
+}
+```
+
+> **Note:** For local images, the path must start with `/`. For external images, add the hostname to `images.remotePatterns` in `next.config.ts`.
+
+---
+
+## 📬 Contact
+
+- 📧 Email: YOUR_EMAIL
+- 💼 LinkedIn: [YOUR_LINKEDIN](YOUR_LINKEDIN)
+- 🐙 GitHub: [@Badhon63](https://github.com/Badhon63)
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+⭐ If you like this project, consider giving it a star!
